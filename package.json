@@ -1,6 +1,7 @@
 {
   "name": "mockify-ts",
-  "version": "0.1.0",
+  "version": "0.1.1",
+  "type": "module",
   "description": "Lightweight TypeScript mock data factory with smart field inference for Jest/Vitest and React Testing Library",
   "main": "./dist/index.cjs",
   "module": "./dist/index.js",
