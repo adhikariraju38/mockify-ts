@@ -15,7 +15,7 @@ Generate realistic mock data for your tests with zero heavy dependencies. Just d
 - **Smart Field Inference** - Automatically generates appropriate data based on field names (`email` → valid email, `id` → UUID, etc.)
 - **Factory Pattern** - Reusable, composable mock definitions with traits/variants
 - **Full Type Safety** - Complete TypeScript inference for your interfaces
-- **Lightweight** - ~35KB bundle, zero runtime dependencies (vs Faker.js at 30.5MB)
+- **Lightweight** - ~36KB bundle, zero runtime dependencies (vs Faker.js at 30.5MB)
 - **Deterministic** - Seeded random generation for reproducible tests
 - **Framework Agnostic** - Works with Jest, Vitest, React Testing Library, and more
 
@@ -363,7 +363,7 @@ const extendedFactory = baseFactory.extend({
 
 | Feature | mockify-ts | @faker-js/faker | fishery | factory.ts |
 |---------|------------|-----------------|---------|------------|
-| Bundle Size | ~35KB | 30.5MB | +Faker | ~20KB |
+| Bundle Size | ~36KB | 30.5MB | +Faker | ~20KB |
 | Smart Inference | Yes | No | No | No |
 | Factory Pattern | Yes | No | Yes | Yes |
 | Type Safety | Full | Basic | Good | Good |
